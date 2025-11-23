@@ -24,21 +24,18 @@ User → S3 → API Gateway → Lambda → MyMemory Translation API → Output
 ## Project Structure
 
 backend/
-├── lambda_function.py
-└── requirements.txt
+│── lambda_function.py
+│── requirements.txt
 
 frontend/
-├── index.html
-├── script.js
-└── style.css
+│── index.html
+│── script.js
+│── style.css
 
 architecture/
-└── architecture_diagram.txt
+│── architecture_diagram.txt
 
 README.md
-
-yaml
-Copy code
 
 ---
 
