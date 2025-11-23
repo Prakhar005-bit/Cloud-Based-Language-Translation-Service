@@ -1,1 +1,11 @@
-User -> S3 -> API Gateway -> Lambda -> Translation API
+User (Browser)
+↓
+AWS S3 (Static Website Hosting)
+↓
+API Gateway (POST Request)
+↓
+AWS Lambda (Python)
+↓
+MyMemory Free Translation API
+↓
+Returns Output to User
