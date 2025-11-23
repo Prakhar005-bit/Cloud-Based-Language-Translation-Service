@@ -1,0 +1,1 @@
+User -> S3 -> API Gateway -> Lambda -> Translation API
